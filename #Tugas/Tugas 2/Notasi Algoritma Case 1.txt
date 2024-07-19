@@ -1,0 +1,114 @@
+Notasi Algoritma Naratif Deskriptif
+1. Mulai program.
+2. Deklarasikan variabel Nama (string), NIM (integer), Nilai_I (integer), Nilai_II (integer), Nilai_III (integer), dan Nilai_Rata2 (integer).
+3. Tampilkan pesan "PROGRAM HITUNG NILAI RATA-RATA".
+4. Masukkan NIM siswa.
+5. Masukkan Nama siswa.
+6. Masukkan Nilai Tugas I.
+7. Masukkan Nilai Tugas II.
+8. Masukkan Nilai Tugas III.
+9. Hitung nilai rata-rata dari tiga nilai tugas yang telah dimasukkan.
+10. Tampilkan NIM siswa.
+11. Tampilkan Nama siswa.
+12. Tampilkan nilai rata-rata yang telah dihitung.
+13. Akhiri program.
+
+Notasi Flowchart
++-------------------------------+
+|        Mulai Program          |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Deklarasikan Variabel         |
+| Nama, NIM, Nilai_I, Nilai_II, |
+| Nilai_III, Nilai_Rata2        |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Tampilkan "PROGRAM HITUNG     |
+| NILAI RATA-RATA"              |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Masukkan NIM                  |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Masukkan Nama                 |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Masukkan Nilai Tugas I        |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Masukkan Nilai Tugas II       |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Masukkan Nilai Tugas III      |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Hitung Nilai Rata-rata        |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Tampilkan NIM                 |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Tampilkan Nama                |
++-------------------------------+
+                |
+                v
++-------------------------------+
+| Tampilkan Nilai Rata-rata     |
++-------------------------------+
+                |
+                v
++-------------------------------+
+|       Akhiri Program          |
++-------------------------------+
+
+Notasi Pseuducode
+BEGIN
+    DECLARE Nama AS STRING
+    DECLARE NIM, Nilai_I, Nilai_II, Nilai_III, Nilai_Rata2 AS INTEGER
+
+    PRINT "PROGRAM HITUNG NILAI RATA-RATA"
+
+    PRINT "Nim Siswa : "
+    INPUT NIM
+
+    PRINT "Nama Siswa : "
+    INPUT Nama
+
+    PRINT "Nilai Tugas I : "
+    INPUT Nilai_I
+
+    PRINT "Nilai Tugas II : "
+    INPUT Nilai_II
+
+    PRINT "Nilai Tugas III : "
+    INPUT Nilai_III
+
+    Nilai_Rata2 = (Nilai_I + Nilai_II + Nilai_III) / 3
+
+    PRINT "NIM " + NIM
+    PRINT "Siswa yang bernama " + Nama
+    PRINT "Memperoleh nilai rata-rata " + Nilai_Rata2
+    PRINT " dari hasil tugas yang diikutinya."
+
+    RETURN 0
+END
