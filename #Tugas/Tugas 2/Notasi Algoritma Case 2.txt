@@ -1,0 +1,141 @@
+Notasi Algoritma Naratif Deskriptif
+1. Mulai program.
+2. Deklarasikan variabel Nama untuk menyimpan nama siswa.
+3. Deklarasikan variabel Nilai_Keaktifan, Nilai_Tugas, dan Nilai_Ujian untuk menyimpan nilai keaktifan, nilai tugas, dan nilai ujian.
+4. Deklarasikan variabel Total_Nilai_Keaktifan, Total_Nilai__Tugas, dan Total_Nilai_Ujian untuk menyimpan nilai murni dari masing-masing komponen.
+5. Deklarasikan variabel Nilai_Akhir untuk menyimpan nilai akhir.
+6. Tampilkan pesan "===== Program Hitung Nilai Akhir =====".
+7. Minta input nama siswa dan simpan ke dalam variabel Nama.
+8. Minta input nilai keaktifan dan simpan ke dalam variabel Nilai_Keaktifan.
+9. Minta input nilai tugas dan simpan ke dalam variabel Nilai_Tugas.
+10. Minta input nilai ujian dan simpan ke dalam variabel Nilai_Ujian.
+11. Hitung nilai murni keaktifan dengan rumus Nilai_Keaktifan * 0.2 dan simpan hasilnya ke dalam Total_Nilai_Keaktifan.
+12. Hitung nilai murni tugas dengan rumus Nilai_Tugas * 0.5 dan simpan hasilnya ke dalam Total_Nilai__Tugas.
+13. Hitung nilai murni ujian dengan rumus Nilai_Ujian * 0.3 dan simpan hasilnya ke dalam Total_Nilai_Ujian.
+14. Tampilkan nilai murni keaktifan.
+15. Tampilkan nilai murni tugas.
+16. Tampilkan nilai murni ujian.
+17. Hitung nilai akhir dengan menjumlahkan Total_Nilai_Keaktifan, Total_Nilai__Tugas, dan Total_Nilai_Ujian, kemudian simpan hasilnya ke dalam Nilai_Akhir.
+18. Tampilkan nama siswa dan nilai akhir yang diperoleh.
+19. Akhiri program.
+
+Notasi Algoritma Dengan Flowchart
++-------------------------------+
+|            Mulai              |
++-------------------------------+
+              |
+              v
++-------------------------------+
+|    Deklarasikan variabel      |
++-------------------------------+
+             |
+             v
++----------------------------------------------------+
+| Tampilkan "===== Program Hitung Nilai Akhir =====" |
++----------------------------------------------------+
+              |
+              v
++-------------------------------+
+|       Input Nama Siswa        |
++-------------------------------+
+              |
+              v
++-------------------------------+
+|     Input Nilai Keaktifan     |
++-------------------------------+
+              |
+              v
++-------------------------------+
+ |     Input Nilai Tugas        |
++-------------------------------+
+              |
+              v
++-------------------------------+
+|       Input Nilai Ujian       |
++-------------------------------+
+              |
+              v
++------------------------------------------------------+
+| Hitung Total_Nilai_Keaktifan = Nilai_Keaktifan * 0.2 |
++------------------------------------------------------+
+              |
+              v
++-----------------------------------------------+
+| Hitung Total_Nilai__Tugas = Nilai_Tugas * 0.5 |
++-----------------------------------------------+
+              |
+              v
++----------------------------------------------+
+| Hitung Total_Nilai_Ujian = Nilai_Ujian * 0.3 |
++----------------------------------------------+
+              |
+              v
++---------------------------------+
+| Tampilkan Total_Nilai_Keaktifan |
++---------------------------------+
+              |
+              v
++-------------------------------+
+| Tampilkan Total_Nilai__Tugas  |
++-------------------------------+
+              |
+              v
++-------------------------------+
+|  Tampilkan Total_Nilai_Ujian  |
++-------------------------------+
+              |
+              v
++-------------------------------------------------------------------------------------+
+| Hitung Nilai_Akhir = Total_Nilai_Keaktifan + Total_Nilai__Tugas + Total_Nilai_Ujian |
++-------------------------------------------------------------------------------------+
+              |
+              v
++--------------------------------------+
+| Tampilkan Nama Siswa dan Nilai_Akhir |
++--------------------------------------+
+               |
+               v
++-------------------------------+
+|            Selesai            |
++-------------------------------+
+
+Notasi Algoritma Dengan Pseudocode
+BEGIN
+  DECLARE Nama AS STRING
+  DECLARE Nilai_Keaktifan, Nilai_Tugas, Nilai_Ujian AS INTEGER
+  DECLARE Total_Nilai_Keaktifan, Total_Nilai__Tugas, Total_Nilai_Ujian, Nilai_Akhir AS FLOAT
+
+  PRINT "===== Program Hitung Nilai Akhir ====="
+  PRINT "Nama Siswa : "
+  INPUT Nama
+
+  PRINT "Nilai Keaktifan : "
+  INPUT Nilai_Keaktifan
+
+  PRINT "Nilai Tugas : "
+  INPUT Nilai_Tugas
+
+  PRINT "Nilai Ujian : "
+  INPUT Nilai_Ujian
+
+  Total_Nilai_Keaktifan = Nilai_Keaktifan * 0.2
+  Total_Nilai__Tugas = Nilai_Tugas * 0.5
+  Total_Nilai_Ujian = Nilai_Ujian * 0.3
+
+  PRINT "Nilai Murni Keaktifan : " + Total_Nilai_Keaktifan
+  PRINT "Nilai Murni Tugas : " + Total_Nilai__Tugas
+  PRINT "Nilai Murni Ujian : " + Total_Nilai_Ujian
+
+  Nilai_Akhir = Total_Nilai_Keaktifan + Total_Nilai__Tugas + Total_Nilai_Ujian
+
+  PRINT "Siswa yang bernama " + Nama
+  PRINT "Dengan Nilai Persentasi Yang Dihasilkan. "
+  PRINT "Nilai Keaktifan * 20% : " + Total_Nilai_Keaktifan
+  PRINT "Nilai Tugas * 50% : " + Total_Nilai__Tugas
+  PRINT "Nilai Ujian * 30% : " + Total_Nilai_Ujian
+  PRINT "Jadi Siswa yang bernama " + Nama + " memperoleh nilai akhir sebesar " + Nilai_Akhir
+END
+
+
+
+
